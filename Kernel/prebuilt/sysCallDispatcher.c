@@ -138,7 +138,13 @@ uint64_t sysRead(uint64_t fd, uint64_t buff, uint64_t amount){
     if(fd != 0) {
         return -1;
     }
-    return keyboardRead(castbuff, amount);
+
+    uint64_t c;
+
+    if((c = keyboardRead(castbuff, amount)) == -1)
+        block(2);
+    
+    return c;
     
 }
 

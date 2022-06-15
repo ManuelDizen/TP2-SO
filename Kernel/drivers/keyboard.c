@@ -225,6 +225,7 @@ void keyboard_handler()
   ctrlC(c);
   if (c != -1)
     store(c);
+  unblock(2);
 }
 
 void resetKeyboardFlags(){

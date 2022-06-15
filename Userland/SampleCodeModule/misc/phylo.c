@@ -31,6 +31,7 @@ void attemptForForks(int i);
 void releaseForks(int i);
 void checkForForks(int i);
 void printerAssistant();
+void lifecycle(int argc, char *argv[]);
 
 void runPhilos(int argc, char *argv[]){
     working = 1;

@@ -1,4 +1,4 @@
-# TP2 SO
+# Trabajo Práctico N°2: "Construcción del Núcleo de un Sistema Operativo y estructuras de administración de recursos" - "72.11 - Sistemas Operativos" - 1Q2022
 
 ## Introducción
 Trabajo práctico elaborado para la materia _"72.11 - Sistemas Operativos"_, Instituto Teconológico de Buenos Aires. Consiste en la implementación de funcionalidades sobre el trabajo práctico especial realizado en la materia _"72.08 - Arquitectura de Computadoras"_. Algunas de las funcionalidades que se debieron implementar consistieron en:
